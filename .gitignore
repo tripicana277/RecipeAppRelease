@@ -1,24 +1,24 @@
-HELP.md
-.gradle
+# Build directories
+.gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### STS ###
+# STS (Spring Tool Suite) specific files
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
-.sts4-cache
+.sts4-cache/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-### IntelliJ IDEA ###
-.idea
+# IntelliJ IDEA specific files
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -26,18 +26,15 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-### NetBeans ###
+# NetBeans specific files
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
+# Visual Studio Code specific files
 .vscode/
-mysql_data/
-mysql_data/
-mysql_data/
-mysql_data/
-mysql_data/
+
+# MySQL data directories
 mysql_data/
