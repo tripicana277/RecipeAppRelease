@@ -1,5 +1,7 @@
-# Ignore build files
-/build
+# Ignore build directory but allow JAR files in build/libs
+/build/*
+!/build/libs/
+!/build/libs/*.jar
 
 # Ignore node_modules
 /node_modules
